@@ -9,8 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var colorBtn: UIButton!
     @IBOutlet weak var colorTextField: UITextField!
+    
+    @IBOutlet weak var colorBtn: UIButton!
 
     @IBAction func changeColor(_ sender: Any) {
         var novaCor: UIColor
