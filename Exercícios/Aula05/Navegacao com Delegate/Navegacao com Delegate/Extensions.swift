@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// extensão para converter cor em string
 extension UIColor {
     var descricao: String? {
         switch self {
@@ -26,7 +26,7 @@ extension UIColor {
         }
     }
 }
-
+// extensão para converter string em cor
 extension String {
     var cor: UIColor? {
         switch self {

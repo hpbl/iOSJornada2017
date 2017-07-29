@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// protocolo do delegate do ColorVC
 protocol ColorVCDelegate {
     func chosen(color: UIColor, by colorVC: ColorViewController)
 }
