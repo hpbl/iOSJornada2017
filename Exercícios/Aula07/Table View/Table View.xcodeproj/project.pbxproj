@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7140A0681F31020100BAED31 /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140A0671F31020100BAED31 /* AddPlayerViewController.swift */; };
+		71AD6A451F3260A000C0D4BD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71AD6A431F3260A000C0D4BD /* Model.xcdatamodeld */; };
 		71BFFA641F2F92FA00A7E31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFFA631F2F92FA00A7E31D /* AppDelegate.swift */; };
 		71BFFA691F2F92FA00A7E31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BFFA671F2F92FA00A7E31D /* Main.storyboard */; };
 		71BFFA6B1F2F92FA00A7E31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BFFA6A1F2F92FA00A7E31D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7140A0671F31020100BAED31 /* AddPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+		71AD6A441F3260A000C0D4BD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		71BFFA601F2F92FA00A7E31D /* Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BFFA631F2F92FA00A7E31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71BFFA681F2F92FA00A7E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		71BFFA621F2F92FA00A7E31D /* Table View */ = {
 			isa = PBXGroup;
 			children = (
+				71AD6A431F3260A000C0D4BD /* Model.xcdatamodeld */,
 				71BFFA631F2F92FA00A7E31D /* AppDelegate.swift */,
 				7140A0641F30D5F700BAED31 /* Controllers */,
 				7140A0651F30D60100BAED31 /* Model */,
@@ -176,6 +179,7 @@
 				71BFFA781F2F93D500A7E31D /* PlayerTableViewCell.swift in Sources */,
 				71BFFA641F2F92FA00A7E31D /* AppDelegate.swift in Sources */,
 				7140A0681F31020100BAED31 /* AddPlayerViewController.swift in Sources */,
+				71AD6A451F3260A000C0D4BD /* Model.xcdatamodeld in Sources */,
 				71BFFA7A1F2F954600A7E31D /* Player.swift in Sources */,
 				71BFFA761F2F93C200A7E31D /* PlayerTableViewController.swift in Sources */,
 				71BFFA7C1F2FB35F00A7E31D /* DetailsViewController.swift in Sources */,
@@ -345,6 +349,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71AD6A431F3260A000C0D4BD /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71AD6A441F3260A000C0D4BD /* Model.xcdatamodel */,
+			);
+			currentVersion = 71AD6A441F3260A000C0D4BD /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 71BFFA581F2F92FA00A7E31D /* Project object */;
 }

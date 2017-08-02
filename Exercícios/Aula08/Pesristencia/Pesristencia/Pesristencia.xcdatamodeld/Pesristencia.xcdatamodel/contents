@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Pessoa" representedClassName="Pessoa" syncable="YES" codeGenerationType="class">
+        <attribute name="foto" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pessoa" positionX="-45" positionY="0" width="128" height="75"/>
+    </elements>
+</model>
