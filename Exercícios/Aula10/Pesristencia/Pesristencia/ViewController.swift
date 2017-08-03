@@ -27,7 +27,6 @@ class ViewController: UIViewController {
             }
             
             self.save(novoNome: novoNome)
-            self.tableView.reloadData()
         }
         
         let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel)
@@ -40,16 +39,6 @@ class ViewController: UIViewController {
     }
     
     func save(novoNome: String) {
-        //let entity = NSEntityDescription.entity(forEntityName: "Pessoa", in: managedContext!)
-        
-        //let pessoa = NSManagedObject(entity: entity!, insertInto: managedContext)
-        
-//        let img = #imageLiteral(resourceName: "diego")
-//        let imgData = UIImageJPEGRepresentation(img, 1)
-//        
-//        pessoa.setValue(imgData, forKey: "foto")
-//        
-//        pessoa.setValue(novoNome, forKey: "nome")
         
         let novaPessoa = PessoaMO(context: self.managedContext)
         novaPessoa.foto = NSData(data: UIImageJPEGRepresentation(#imageLiteral(resourceName: "diego"), 1)!)
@@ -59,6 +48,7 @@ class ViewController: UIViewController {
         do {
             try managedContext?.save()
             self.pessoas.append(novaPessoa)
+            self.tableView.reloadData()
         } catch let error as NSError {
             print("erro na hora de salvar. \(error), \(error.userInfo)")
         }
