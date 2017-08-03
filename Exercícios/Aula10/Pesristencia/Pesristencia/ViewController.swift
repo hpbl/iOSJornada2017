@@ -54,6 +54,7 @@ class ViewController: UIViewController {
         let novaPessoa = PessoaMO(context: self.managedContext)
         novaPessoa.foto = NSData(data: UIImageJPEGRepresentation(#imageLiteral(resourceName: "diego"), 1)!)
         novaPessoa.nome = novoNome
+        novaPessoa.sayHi()
         
         do {
             try managedContext?.save()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7185A5E51F3371A700C4D17C /* PessoaMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7185A5E41F3371A700C4D17C /* PessoaMO.swift */; };
 		71AD6A0E1F32436400C0D4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD6A0D1F32436400C0D4BD /* AppDelegate.swift */; };
 		71AD6A101F32436400C0D4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD6A0F1F32436400C0D4BD /* ViewController.swift */; };
 		71AD6A131F32436400C0D4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AD6A111F32436400C0D4BD /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7185A5E41F3371A700C4D17C /* PessoaMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PessoaMO.swift; sourceTree = "<group>"; };
 		71AD6A0A1F32436400C0D4BD /* Pesristencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pesristencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AD6A0D1F32436400C0D4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AD6A0F1F32436400C0D4BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				71AD6A191F32436400C0D4BD /* LaunchScreen.storyboard */,
 				71AD6A1C1F32436400C0D4BD /* Info.plist */,
 				71AD6A141F32436400C0D4BD /* Pesristencia.xcdatamodeld */,
+				7185A5E41F3371A700C4D17C /* PessoaMO.swift */,
 			);
 			path = Pesristencia;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7185A5E51F3371A700C4D17C /* PessoaMO.swift in Sources */,
 				71AD6A101F32436400C0D4BD /* ViewController.swift in Sources */,
 				71AD6A0E1F32436400C0D4BD /* AppDelegate.swift in Sources */,
 				71AD6A161F32436400C0D4BD /* Pesristencia.xcdatamodeld in Sources */,
